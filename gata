@@ -1,0 +1,23 @@
+echo "# Proyectos-HTML-y-css" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/carloscrazy30/Proyectos-HTML-y-css.git
+git push -u origin main
+
+<html>
+<head>
+    <title>MI página de ejemplo</title>
+</head>
+<body>
+    <p>Hola, soy Enriquleme</p>
+    <p style="color:blue; font-size:100px;">Mi gata es muy insana jajjs</p>
+
+    <!-- Imagen con enlace que se abre en una nueva pestaña -->
+    <a href="https://postimg.cc/yJtMKGxP" target="_blank">
+        <img src="https://i.postimg.cc/wvjgX8dS/IMG-20240706-125748-864.webp" border="0" alt="IMG-20240706-125748-864" width="400">
+    </a>
+
+</body>
+</html>
